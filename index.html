@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OGA & FATHER Communication Center</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial;background:#0f0f0f;color:white;scroll-behavior:smooth;}
+
+nav{
+background:black;
+padding:15px;
+position:fixed;
+width:100%;
+top:0;
+display:flex;
+justify-content:center;
+gap:20px;
+z-index:1000;
+}
+
+nav a{
+color:gold;
+text-decoration:none;
+font-weight:bold;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('shop.jpg');
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding-top:60px;
+}
+
+header h1{font-size:45px;color:gold;}
+header p{margin-top:15px;font-size:18px;max-width:600px;}
+
+.btn{
+margin-top:25px;
+padding:14px 30px;
+background:gold;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.section{padding:80px 20px;text-align:center;}
+.section h2{color:gold;margin-bottom:30px;}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:#1b1b1b;
+padding:20px;
+border-radius:15px;
+max-width:300px;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:10px;
+border-radius:8px;
+border:none;
+}
+
+button{
+padding:12px;
+background:gold;
+border:none;
+font-weight:bold;
+border-radius:20px;
+}
+
+iframe{
+width:100%;
+height:300px;
+border-radius:15px;
+}
+
+footer{
+background:black;
+padding:20px;
+text-align:center;
+color:gray;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+<h1>OGA & FATHER</h1>
+<p>Professional Phone Repair & Sales Center in Garin Dabai</p>
+<a href="tel:+2349019073826" class="btn">Call Now</a>
+</header>
+
+<section class="section" id="about">
+<h2>About The CEO</h2>
+<div class="cards">
+<div class="card">
+<img src="sule2.jpg">
+<h3>Sulaiman Dayyabu</h3>
+<p>Expert in phone repair, flashing, unlocking & accessories sales.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="services">
+<h2>Our Services</h2>
+<div class="cards">
+<div class="card"><h3>Phone Repair</h3></div>
+<div class="card"><h3>Flashing & Unlocking</h3></div>
+<div class="card"><h3>Accessories Sales</h3></div>
+</div>
+</section>
+
+<section class="section" id="gallery">
+<h2>Gallery</h2>
+<div class="cards">
+<div class="card"><img src="shop.jpg"></div>
+<div class="card"><img src="sule1.jpg"></div>
+<div class="card"><img src="sule2.jpg"></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Customer Reviews</h2>
+<div class="cards">
+<div class="card">
+<p>"Very honest and professional service!"</p>
+</div>
+<div class="card">
+<p>"Best phone repair shop in Garin Dabai."</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Book Appointment</h2>
+
+<form action="mailto:sulaimandayyabu55@gmail.com" method="post" enctype="text/plain">
+<input type="text" placeholder="Your Name" required>
+<input type="tel" placeholder="Phone Number" required>
+<textarea placeholder="What is the problem?" required></textarea>
+<button type="submit">Send Booking</button>
+</form>
+
+<h2 style="margin-top:50px;">Our Location</h2>
+<iframe src="https://maps.google.com/maps?q=Garin%20Dabai&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<footer>
+© 2026 OGA & FATHER Communication Center  
+All Rights Reserved.
+</footer>
+
+<a href="https://wa.me/2349019073826" class="whatsapp">WhatsApp</a>
+
+</body>
+  </html>
